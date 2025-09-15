@@ -1,0 +1,23 @@
+{
+  "name": "hk-wind-monitor",
+  "version": "1.0.0",
+  "description": "Real-time Hong Kong typhoon wind monitoring dashboard with Signal 3 and Signal 8 assessment",
+  "main": "app.py",
+  "scripts": {
+    "start": "gunicorn app:app --bind 0.0.0.0:$PORT --workers 2"
+  },
+  "engines": {
+    "python": "3.11.x"
+  },
+  "keywords": [
+    "hong-kong",
+    "typhoon",
+    "weather",
+    "wind-monitoring", 
+    "signal-8",
+    "dashboard",
+    "real-time"
+  ],
+  "author": "Hong Kong Wind Monitor",
+  "license": "MIT"
+}
